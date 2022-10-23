@@ -1,4 +1,6 @@
-# NgMdbootstrapStarterKit
+# Hexagonal Architeture Shopping Cart Example
+
+## Based on NgMdbootstrapStarterKit
 
 ## Official template documentation
 
