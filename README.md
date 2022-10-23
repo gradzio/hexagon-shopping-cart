@@ -2,7 +2,7 @@
 
 ## Dependency Graph
 
-[hexagonal-graph](https://s3.amazonaws.com/lowgular.io/REPO+DOCUMENTATION+/shopping-cart-whole.png)
+<img src="https://s3.amazonaws.com/lowgular.io/REPO+DOCUMENTATION+/shopping-cart-whole.png" alt="hexagon shopping cart dependency graph">
 
 ## Github Pages
 
