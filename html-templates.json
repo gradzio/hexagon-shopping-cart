@@ -23,7 +23,7 @@
     "card-form": {
       "form": "<form class=\"mt-4\" [formGroup]=\"$formVariable$\" (ngSubmit)=\"$submitCallback$\">\n                      $content$\n\n                    </form>",
       "formSubmit": "<button type=\"submit\" class=\"btn btn-info btn-block btn-lg\">\n                      <div class=\"d-flex justify-content-between\">\n                        <span>$4818.00</span>\n                        <span>Checkout <i class=\"fas fa-long-arrow-alt-right ms-2\"></i></span>\n                      </div>\n                    </button>",
-      "input": "<mdb-form-control class=\"form-white mb-4\">\n    <input mdbInput type=\"text\" id=\"$formControlName$\" class=\"form-control\" />\n    <label mdbLabel class=\"form-label\" for=\"$formControlName$\">$label$</label>\n  </mdb-form-control>",
+      "input": "<mdb-form-control class=\"form-white mb-4\">\n    <input mdbInput type=\"text\" id=\"$formControlName$\" class=\"form-control\" />\n    <label mdbLabel class=\"form-label\" for=\"$formControlName$\">$label$</label>\n  </mdb-form-control>"
     }
   },
   "lists": {
