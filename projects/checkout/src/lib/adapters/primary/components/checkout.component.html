@@ -1,0 +1,31 @@
+<a type="submit" class="text-white" *ngFor="let item of cards$ | async">
+  <i [class]="item + ' fab fa-2x me-2'"></i>
+</a>
+<form class="mt-4" [formGroup]="cardForm" (ngSubmit)="onCardFormSubmitted(cardForm)">
+  <mdb-form-control class="form-white mb-4">
+    <input mdbInput type="text" id="cardHolder" class="form-control"/>
+    <label mdbLabel class="form-label" for="cardHolder">Card Holder</label>
+  </mdb-form-control>
+  <mdb-form-control class="form-white mb-4">
+    <input mdbInput type="text" id="cardNumber" class="form-control"/>
+    <label mdbLabel class="form-label" for="cardNumber">Card Number</label>
+  </mdb-form-control>
+  <mdb-form-control class="form-white mb-4">
+    <input mdbInput type="text" id="cardExpiry" class="form-control"/>
+    <label mdbLabel class="form-label" for="cardExpiry">Card Expiry</label>
+  </mdb-form-control>
+  <mdb-form-control class="form-white mb-4">
+    <input mdbInput type="text" id="cardCvv" class="form-control"/>
+    <label mdbLabel class="form-label" for="cardCvv">Card Cvv</label>
+  </mdb-form-control>
+  <div class="d-flex justify-content-between" *ngFor="let item of summaryLines$ | async">
+    <p class="mb-2">{{item.label}}</p>
+    <p class="mb-2">{{item.value}}</p>
+  </div>
+  <button type="submit" class="btn btn-info btn-block btn-lg">
+    <div class="d-flex justify-content-between">
+      <span>Checkout <i class="fas fa-long-arrow-alt-right ms-2"></i></span>
+    </div>
+  </button>
+
+</form>
