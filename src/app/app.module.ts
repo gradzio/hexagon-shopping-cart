@@ -43,7 +43,7 @@ import { HttpClientModule } from '@angular/common/http';
     MdbTooltipModule,
     MdbValidationModule,
     BrowserAnimationsModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
