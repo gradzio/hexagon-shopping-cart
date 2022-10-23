@@ -1,5 +1,9 @@
 # Hexagonal Architeture Shopping Cart Example
 
+## Dependency Graph
+
+[hexagonal-graph](https://s3.amazonaws.com/lowgular.io/REPO+DOCUMENTATION+/shopping-cart-whole.png)
+
 ## Github Pages
 
 [https://gradzio.github.io/hexagon-shopping-cart/](https://gradzio.github.io/hexagon-shopping-cart/)
